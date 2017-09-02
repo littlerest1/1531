@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+   <head>
+   <meta charset=utf-8 />
+   <title>Login page </title>
+   <style id="jsbin-css">
+   div,span{
+margin:0;padding:0;
+font-weight:bold;
+font: bold 16px Arial, sans-serif;
+-moz-user-select:none;
+-webkit-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+#window{
+   width:320px;
+  height:auto;
+  margin:100px auto;
+  padding:20px;
+  background:transparent;
+  BORDER-BOTTOM: #ffffff 1px solid;
+  BORDER-LEFT: #ffffff 1px solid;
+  COLOR: #ffffff;
+  font-size: 12pt
+  border-radius:5px;
+  box-shadow:0 7px 8px #0000ff
+}
+#login_form input {
+    border: 0;
+    BACKGROUND-COLOR: transparent;
+    BORDER-BOTTOM: #ffffff 1px solid;
+    BORDER-LEFT: #ffffff 1px solid;
+    COLOR: #ffffff;
+    HEIGHT: 18px;
+    font-size: 12pt
+}
+.button,.head{overflow:hidden;} 
+
+.button{
+  float:right;
+  width:75px;
+  height:40px;
+  margin:0 5px 10px 8px;
+  text-align:center;
+  line-height:40px;
+  border-radius:3px;
+  background:#FFED97	;
+  box-shadow:0 5px 1px #FBFFFD;
+  cursor:pointer;
+  transition:all 0.3s ease;
+}
+.button:hover{
+  background:#87cefa;
+  box-shadow:0 5px 1px #1e90ff;
+  color:#fff;
+}
+</style>
+   </head>
+   <body style="background-color:CornflowerBlue;">
+      <div id="window">
+      <p style="font-family:verdana;font-size:150%;color:#00FFFF">Login Page</p>
+      <Form method="POST" id="login_form">
+         <input name="name" placeholder="Enter your name"/>
+         <input name="zID" placeholder="Enter your zID"/>
+         <input name="URL" placeholder="One line description"/>
+       <button type="submit" name="bt" class="button">Login</button>
+      </Form>
+      <p style="font-family:verdana;font-size:60%;color:red">*If you want to response a survey just enter your name and url for the survey</p>
+   </body>
+</html>
